@@ -35,6 +35,11 @@
         }
       }
 
+
+      const fruits = ['orange', 'strawberry', 'pear'];
+      let ff = []
+      ff.push
+
       // 👉 CHALLENGE 3
 
       function booleanize(obj) {
@@ -103,7 +108,50 @@
       }
 
       // 👉 CHALLENGE 6 (bonus, NOT graded)
-      function diceRolls() {}
+
+
+function diceRolls() {
+    let results = [];
+
+    // Repeat the process three times
+    for (let j = 0; j < 3; j++) {
+        let result = [];
+        let count = [];
+        let i = 0;
+
+        // Roll the dice until three times six
+        while (result.length < 3) {
+            let x = Math.floor(Math.random() * 6) + 1; // Generate random number between 1 and 6
+
+            if (x === 6) {
+                result.push(x);
+            } else {
+                count.push(1);
+            }
+            i++;
+        }
+
+        results.push(count.length); 
+    }
+
+    return results; 
+}
+
+///let rolls = diceRolls();
+//console.log(rolls);
+
+
+/* 
+let x = Math.random() * 6;//Generate random number between 0 and 6. Genereta every time different number
+console.log(x);
+
+let x = Math.floor(Math.random() * 6);//Generate random number between 0 and 6 AND round down
+console.log(x);
+
+let x = Math.floor(Math.random() * 6) + 1;//Generate random number between 1 (!) and 6 AND round down
+console.log(x); */
+
+
 
       // 🧪 DO NOT make any changes below this line ===================
       globalThis.challengeVersion = 1;
