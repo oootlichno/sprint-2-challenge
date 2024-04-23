@@ -30,6 +30,7 @@ Once you have your files on your machine, open the `index.html` file in two prog
 For each challenge, read the instructions within the challenge link below and write your code in the `index.html` file. The `index.html` file has a function labeled with the challenge number where you will write your code. You can ignore the rest of the files.
 - **Challenges List:**
   - [Challenge 1](./challenges/Challenge_1.md)
+
   - [Challenge 2](./challenges/Challenge_2.md)
   - [Challenge 3](./challenges/Challenge_3.md)
   - [Challenge 4](./challenges/Challenge_4.md)
